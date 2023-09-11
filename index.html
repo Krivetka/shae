@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,7 @@
 <div class="processed-block">
     <img class="processed-block__img" src="https://api.instatry.ai/img/obj/f2adeac9190ca809f50201695117e73b723ddab809b7508f72a8a57c667767ea.png">
     <button class="processed-block__btn">
-        <svg width="32" height="32" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="28" height="28" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16 9V16H2V9H0V16C0 17.1 0.9 18 2 18H16C17.1 18 18 17.1 18 16V9H16ZM10 9.67L12.59 7.09L14 8.5L9 13.5L4 8.5L5.41 7.09L8 9.67V0H10V9.67Z"
                   fill="white"/>
         </svg>
@@ -65,37 +66,41 @@
         width: 100%;
     }
     .processed-block__btn{
-        width: 40px;
-        height: 40px;
+        width: 28px;
+        height: 28px;
+        padding: 0;
         position: absolute;
-        bottom: 20px;
+        bottom: 10px;
         left: 10px;
         background: none;
         border: none;
     }
     .origin-img{
         width: 100%;
+        margin-top: 10px;
     }
     .product-info{
-        width: 80%;
+        width: 90%;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
     .product-title{
+        margin: 20px 0 0;
         color: #000;
         text-align: center;
         font-family: 'Inter', sans-serif;
-        font-size: 30px;
+        font-size: 26px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
     }
     .product-description{
+        margin: 12px 0;
         color: #787878;
         text-align: center;
         font-family: 'Inter', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -111,16 +116,16 @@
     background: #256FDB;
     color: #FFF;
     font-family: 'Inter', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
     .site-info{
-        margin-top: 50px;
+        margin-top: 40px;
         color: #787878;
         font-family: 'Inter', sans-serif;
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
